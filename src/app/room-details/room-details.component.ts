@@ -30,6 +30,6 @@ export class RoomDetailsComponent implements OnInit {
   }
 
   list(){
-    this.router.navigate(['room']);
+    this.router.navigate(['rooms']);
   }
 }
