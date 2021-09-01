@@ -1,28 +1,36 @@
-# ClientRoom
+# Client Room
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
+Projeto Front end utilizando Angular na versão 12.2.2.
 
-## Development server
+BootStrap 5 e jquary 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+A api roda localmente no endereço http://localhost:4200/
 
-## Code scaffolding
+___
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Motivação
 
-## Build
+A API foi construida para o Projeto de conclusão do BootCamp Santander Full Stack ministrado pela DIO(Digital Innovation One).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Ela se destina ao gerenciamento da Sala de Reunião exibindo as reservas e o assunto a ser tratado na reserva, traz a possibilidade de editar excluir e adicionar novo agendamento
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+A API faz integração com o BeckEnd pelo endereço http://localhost:8082/api/v1/room
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Rotas
 
-## Further help
+Ao acessar a API ela redireciona automaticamente para para http://localhost:4200/rooms  onde é listado todas as reservas ja realizadas.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# FRONT-salaDeReuniaoDIO
+Ao acessar http://localhost:4200/add traz a possibilidade de adicionar uma nova reserva.
+
+Ao acessar http://localhost:4200/update/:id ela exibe um formulario onde é possivel atualizar a reserva, onde id é a indentificaçao da reserva obtida automaticamente pela api
+
+Ao acessar http://localhost:4200/details/:id ela exibe uma tela com todas as informações da reserva especifica, onde id é a indentificaçao da reserva obtida automaticamente pela api
+
+---
+Ficou alguma duvida ou tem sugestão para melhorias  me chame no linkedin https://www.linkedin.com/in/rafael-chaves-b5a515213/
+
+Meu Perfil na DIO https://www.linkedin.com/in/rafael-chaves-b5a515213/
